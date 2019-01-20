@@ -1,0 +1,5 @@
+[run]
+include = cloud_on_the_fly/*
+omit = *migrations*, *tests*
+plugins =
+    django_coverage_plugin
